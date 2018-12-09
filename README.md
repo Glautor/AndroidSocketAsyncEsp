@@ -1,8 +1,9 @@
 ﻿# AndroidSocketAsyncEsp
 Aplication created to make a Assynchron Comunication beetwen an Android App and a ESP Server. 
 
-### Integrate this app with this Auto Balacing Robot
-[![Auto Balacing Robot](https://github.com/Kayannsoarez/Panopticron)
+You can integrate this app with this Auto Balacing Robot: https://github.com/Kayannsoarez/Panopticron
+
+### Documentation Valid to `Master`
 
 ### Usability
 
@@ -25,8 +26,9 @@ The class Connection Override the method onSendMesage(), that is responsable to 
 	connection.onSendMensage();
 ```
 
-**Dependencies**
-[![AndroidAsync](https://github.com/koush/AndroidAsync)
+Dependencies
+----------
+AndroidAsync: https://github.com/koush/AndroidAsync
 
 Team
 ----------
