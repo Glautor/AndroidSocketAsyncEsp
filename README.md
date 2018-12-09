@@ -1,5 +1,5 @@
 ﻿# AndroidSocketAsyncEsp
-Aplication created to make a Assynchron Comunication beetwen an Android App and a ESP Server. 
+This Aplication was made to be a simple way to to make an Asynchron Comunication beetwen an Android App and a ESP Server with the possibily to send a message to the server. 
 
 You can integrate this app with this Auto Balacing Robot: https://github.com/Kayannsoarez/Panopticron
 
@@ -7,13 +7,13 @@ You can integrate this app with this Auto Balacing Robot: https://github.com/Kay
 
 ### Usability
 
-To use the App it's only necessary put your IP and the Hostname that you're trying to comunicate with.
+To use the App it's only necessary put the `port` and the `hostName` that you're trying to comunicate with.
 
 ### How to Use
-The class Connection Override the method onSendMesage(), that is responsable to send the mesage to server. 
+The class Connection override the method onSendMesage(), that is responsable to send the mesage to server. 
 
 ### Steps to Adapt the App to your Project
-* Initialize the Class Conection
+* Initialize the class Conection
 * Put the HostName
 * Put de Port
 ### Example
@@ -25,6 +25,10 @@ The class Connection Override the method onSendMesage(), that is responsable to 
 	Connection conection = new Connection("1", hostName, port);
 	connection.onSendMensage();
 ```
+
+### Aplications Imagem
+![Alt text](C:\Users\Glauton\AndroidStudioProjects\Micro\print_tela.jpg?raw=true "Title")
+
 
 Dependencies
 ----------
