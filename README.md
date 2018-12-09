@@ -12,9 +12,9 @@ To use the App it's only necessary put your IP and the Hostname that you're tryi
 The class Connection Override the method onSendMesage(), that is responsable to send the mesage to server. 
 
 ### Steps to Adapt the App to your Project
-	* Initialize the Class Conection
-	* Put the HostName
-	* Put de Port
+* Initialize the Class Conection
+* Put the HostName
+* Put de Port
 ### Example
 ```java
 
@@ -30,9 +30,9 @@ The class Connection Override the method onSendMesage(), that is responsable to 
 
 Team
 ----------
-	* Glauton Santos
-	* Luan Cruz
-	* Kayann Soares
+* Glauton Santos
+* Luan Cruz
+* Kayann Soares
 
 Limitations
 ----------
