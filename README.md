@@ -26,7 +26,8 @@ The class Connection override the method onSendMesage(), that is responsable to 
 	connection.onSendMensage();
 ```
 
-### Aplication's Imagem
+Aplication's Imagem
+----------
 ![alt text](https://uploaddeimagens.com.br/images/001/770/564/full/print_tela.jpg?1544388008)
 
 Dependencies
