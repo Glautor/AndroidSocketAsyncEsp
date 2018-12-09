@@ -37,15 +37,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:text="ESPERANDO"
+        android:text=" "
         android:textAlignment="center" />
 
     <TextView
-        android:gravity="center"
         android:id="@+id/results"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="Nada Ainda"/>
+        android:gravity="center"
+        android:text=" "
+        android:textSize="20dp" />
 
 </LinearLayout>

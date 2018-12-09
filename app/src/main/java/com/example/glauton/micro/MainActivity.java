@@ -275,7 +275,8 @@ public class MainActivity extends AppCompatActivity {
     private static Socket s;
     private static PrintWriter printWriter;
     String message = "";
-    private static String ip = "127.0.0.1";
+    private static String hostName = "192.168.4.1";
+    private static int port = 555;
     //"152.238.23.120";
 
     Button btnFirst, btnSecond, btnThird, btnFourth;
@@ -301,8 +302,7 @@ public class MainActivity extends AppCompatActivity {
         btnFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                message = "Teste";
-                Conection conection = new Conection("1");
+                Conection conection = new Conection("1", hostName, port);
                 conection.onSendMensage();
             }
         });
@@ -310,8 +310,7 @@ public class MainActivity extends AppCompatActivity {
         btnSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                message = "Teste";
-                Conection conection = new Conection("2");
+                Conection conection = new Conection("2", hostName, port);
                 conection.onSendMensage();
             }
         });
@@ -319,8 +318,7 @@ public class MainActivity extends AppCompatActivity {
         btnSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                message = "Teste";
-                Conection conection = new Conection("3");
+                Conection conection = new Conection("3", hostName, port);
                 conection.onSendMensage();
             }
         });
@@ -328,8 +326,7 @@ public class MainActivity extends AppCompatActivity {
         btnSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                message = "Teste";
-                Conection conection = new Conection("4");
+                Conection conection = new Conection("4", hostName, port);
                 conection.onSendMensage();
             }
         });
