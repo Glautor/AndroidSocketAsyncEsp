@@ -26,10 +26,6 @@ The class Connection override the method onSendMesage(), that is responsable to 
 	connection.onSendMensage();
 ```
 
-Aplication's Image
-----------
-![alt text](https://uploaddeimagens.com.br/images/001/770/564/full/print_tela.jpg?1544388008)
-
 Dependencies
 ----------
 AndroidAsync: https://github.com/koush/AndroidAsync
@@ -48,3 +44,7 @@ License
 ----------
 
 AndroidSocketAsyncEsp is Copyright © 2018 thoughtbot, inc. It is free software and you can use how you want to.
+
+Aplication's Image
+----------
+![alt text](https://uploaddeimagens.com.br/images/001/770/564/full/print_tela.jpg?1544388008)
