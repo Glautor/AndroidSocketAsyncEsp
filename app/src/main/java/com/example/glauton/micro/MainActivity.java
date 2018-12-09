@@ -262,28 +262,13 @@
 
 package com.example.glauton.micro;
 
-import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.koushikdutta.async.AsyncServer;
-import com.koushikdutta.async.AsyncSocket;
-import com.koushikdutta.async.ByteBufferList;
-import com.koushikdutta.async.DataEmitter;
-import com.koushikdutta.async.Util;
-import com.koushikdutta.async.callback.CompletedCallback;
-import com.koushikdutta.async.callback.ConnectCallback;
-import com.koushikdutta.async.callback.DataCallback;
-
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.net.InetSocketAddress;
 import java.net.Socket;
 
 public class MainActivity extends AppCompatActivity {
@@ -317,8 +302,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 message = "Teste";
-                Conexao conexao = new Conexao("1");
-                conexao.onSendMensage();
+                Conection conection = new Conection("1");
+                conection.onSendMensage();
             }
         });
 
@@ -326,8 +311,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 message = "Teste";
-                Conexao conexao = new Conexao("2");
-                conexao.onSendMensage();
+                Conection conection = new Conection("2");
+                conection.onSendMensage();
             }
         });
 
@@ -335,8 +320,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 message = "Teste";
-                Conexao conexao = new Conexao("3");
-                conexao.onSendMensage();
+                Conection conection = new Conection("3");
+                conection.onSendMensage();
             }
         });
 
@@ -344,8 +329,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 message = "Teste";
-                Conexao conexao = new Conexao("4");
-                conexao.onSendMensage();
+                Conection conection = new Conection("4");
+                conection.onSendMensage();
             }
         });
     }

@@ -13,11 +13,11 @@ import com.koushikdutta.async.callback.DataCallback;
 
 import java.net.InetSocketAddress;
 
-public class Conexao {
+public class Conection {
 
     String mensagem = null;
 
-    public Conexao(String mensagem){
+    public Conection(String mensagem){
         mensagem = mensagem;
     }
 
