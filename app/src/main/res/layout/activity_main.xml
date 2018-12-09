@@ -12,25 +12,25 @@
         android:id="@+id/btnFirst"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="First" />
+        android:text="Front" />
 
     <Button
         android:id="@+id/btnSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Second" />
+        android:text="Back" />
 
     <Button
         android:id="@+id/btnThird"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Third" />
+        android:text="Right" />
 
     <Button
         android:id="@+id/btnFourth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fourth" />
+        android:text="Left" />
 
     <EditText
         android:id="@+id/editCod"

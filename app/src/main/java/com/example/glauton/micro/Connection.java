@@ -13,16 +13,16 @@ package com.example.glauton.micro;
 
         import java.net.InetSocketAddress;
 
-public class Conection {
+public class Connection {
 
     String message = null;
     String hostName = null;
     int port = 0;
 
-    public Conection(String message, String hostName, int port){
-        message = message;
-        hostName = hostName;
-        port = port;
+    public Connection(String message, String hostName, int port){
+        this.message = message;
+        this.hostName = hostName;
+        this.port = port;
     }
 
     public void onDestroyConnection() {
