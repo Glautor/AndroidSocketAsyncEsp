@@ -43,4 +43,4 @@ AndroidSocketAsyncEsp is Copyright © 2018 thoughtbot, inc. It is free software 
 
 Aplication's Image
 ----------
-![alt text](https://uploaddeimagens.com.br/images/001/770/564/full/print_tela.jpg?1544388008)
+![alt text](https://uploaddeimagens.com.br/images/001/771/591/full/photo_2018-12-10_12-41-15.jpg?1544456496)
