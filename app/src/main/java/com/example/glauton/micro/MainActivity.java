@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         btnSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Connection connection = new Connection("2", hostName, port);
+                Connection connection = new Connection("3", hostName, port);
                 connection.onSendMensage();
             }
         });
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         btnThird.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Connection connection = new Connection("3", hostName, port);
+                Connection connection = new Connection("2", hostName, port);
                 connection.onSendMensage();
             }
         });
