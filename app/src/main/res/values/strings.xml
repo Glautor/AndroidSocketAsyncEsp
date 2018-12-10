@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Micro</string>
+    <string name="app_name"> UFC 2018 - Micro </string>
+    <string name="name_tela"> Control your Robot </string>
 </resources>
