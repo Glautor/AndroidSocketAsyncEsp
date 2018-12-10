@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private static int port = 555;
 
     Button btnFirst, btnSecond, btnThird, btnFourth;
-    EditText editCod;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         btnSecond = (Button) findViewById(R.id.btnSecond);
         btnThird = (Button) findViewById(R.id.btnThird);
         btnFourth = (Button) findViewById(R.id.btnFourth);
-        editCod = (EditText) findViewById(R.id.editCod);
         sendMessage();
     }
 
