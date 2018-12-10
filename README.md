@@ -36,10 +36,6 @@ Team
 * Luan Cruz
 * Kayann Soares
 
-Limitations
-----------
-If you want to contribe with the project, the App has a problem, always that it send a message, the connection is lost.
-
 License
 ----------
 

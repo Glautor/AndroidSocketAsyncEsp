@@ -62,10 +62,11 @@ public class Connection {
                     @Override
                     public void onConnectCompleted(Exception ex, final AsyncSocket socket) {
                         try {
-                            Util.writeAll(socket, "Hello Server".getBytes(), new CompletedCallback() {
+                            Util.writeAll(socket, message.getBytes(), new CompletedCallback() {
                                 @Override
                                 public void onCompleted(Exception ex) {
                                     System.out.println("Conectado com sucesso!");
+                                    socket.close();
                                 }
                             });
 
@@ -73,6 +74,7 @@ public class Connection {
                                 @Override
                                 public void onDataAvailable(DataEmitter emitter, ByteBufferList bb) {
                                     System.out.println(message + new String(bb.getAllByteArray()));
+                                    socket.close();
                                 }
                             });
 
@@ -80,6 +82,7 @@ public class Connection {
                                 @Override
                                 public void onCompleted(Exception ex) {
                                     System.out.println("Successfully closed connection");
+                                    socket.close();
                                 }
                             });
 
@@ -87,10 +90,12 @@ public class Connection {
                                 @Override
                                 public void onCompleted(Exception ex) {
                                     System.out.println("Successfully end connection");
+                                    socket.close();
                                 }
                             });
                         }catch (Exception exc){
                             System.out.println("Erro" + exc.getMessage());
+                            socket.close();
                         }
                     }
                 });
