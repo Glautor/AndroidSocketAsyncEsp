@@ -1,4 +1,4 @@
-﻿# AndroidSocketAsyncEsp
+﻿# Android Socket Async Esp
 This Aplication was made to be a simple way to to make an Asynchron Comunication beetwen an Android App and a ESP Server with the possibily to send a message to the server. 
 
 You can integrate this app with this Auto Balacing Robot: https://github.com/Kayannsoarez/Panopticron
